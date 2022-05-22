@@ -1,6 +1,6 @@
 import nltk, re, pprint
 import nltk
-nltk.download('punkt') #needed to specifically download this project
+nltk.download('punkt') 
 from nltk import word_tokenize,sent_tokenize
 from urllib import request
 
@@ -38,6 +38,6 @@ print('The text type is: ', text_type)
 print('The random slice of text is: ', text[1024:1062])
 print('These are text collocations: ', text.collocations())
 #SLICE CONTENT
-print('The content start index is: ', startcontentsplice) #I CAN FIND THE CORRECT STARTING INDEX 5575
-print('The content start index is: ', endcontentsplice) #CANT FIND END INDEX, KEEP GETTING -1!!!!!! Check the text, different end statement than txtbook, 1158053
+print('The content start index is: ', startcontentsplice) #5575
+print('The content start index is: ', endcontentsplice) #1158053
 print('The content start index is: ', contentstart)
