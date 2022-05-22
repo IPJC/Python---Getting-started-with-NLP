@@ -2,8 +2,8 @@
 
 import nltk, re, pprint
 import nltk
-nltk.download('punkt') #needed to specifically download this project
-nltk.download('stopwords') #needed to specifically download this project
+nltk.download('punkt') 
+nltk.download('stopwords') 
 from nltk import word_tokenize,sent_tokenize
 from urllib import request
 #3.1
@@ -39,6 +39,6 @@ print(type(text))
 print(text[1024:1062])
 print(text.collocations())
 #SLICE CONTENT
-print(startcontentsplice) #I CAN FIND THE CORRECT STARTING INDEX 5575
-print(endcontentsplice) #CANT FIND END INDEX, KEEP GETTING -1!!!!!! Check the text, different end statement than txtbook, 1158053
+print(startcontentsplice)
+print(endcontentsplice)
 print(raw.find("PART I"))
